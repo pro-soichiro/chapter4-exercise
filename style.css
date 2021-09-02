@@ -22,13 +22,19 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  background-color: palegreen;
 }
 
-.main-content {
+.blog {
   width: 500px;
   height: 1400px;
   background-color: limegreen;
+}
+
+.sidebar-left,
+.sidebar-right {
+  height: 1400px;
+  width: 230px;
+  background-color: palegreen;
 }
 
 .footer {
